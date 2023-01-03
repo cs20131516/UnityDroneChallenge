@@ -1,0 +1,12 @@
+conda activate mlagents
+cd C:\Users\fight\Desktop\unity_env\ml-agents-release_19
+mlagents-learn --torch config/ppo/PushBlock.yaml --run-id=myPushBlockTraining
+
+mlagents-learn --torch config/ppo/3DBall.yaml --run-id=my3DBall
+
+mlagents-learn config/ppo/3DBall.yaml --run-id=3DBall
+
+cd C:\Users\fight\Desktop\unity_env\2021_RLKR_Drone_Delivery_Challenge_with_Unity-master\baseline
+
+mlagents-learn ./drone_config/drone_test.yaml --env=./RLVillage --run-id=drone6 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test1.yaml --env=./RLVillage --run-id=drone7 --width=1200 --height=800

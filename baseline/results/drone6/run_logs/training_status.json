@@ -1,0 +1,38 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 499992,
+                "file_path": "results\\drone6\\My Behavior\\My Behavior-499992.onnx",
+                "reward": 11.00259280204773,
+                "creation_time": 1672644216.851743,
+                "auxillary_file_paths": [
+                    "results\\drone6\\My Behavior\\My Behavior-499992.pt"
+                ]
+            },
+            {
+                "steps": 500056,
+                "file_path": "results\\drone6\\My Behavior\\My Behavior-500056.onnx",
+                "reward": 11.00259280204773,
+                "creation_time": 1672644217.3047087,
+                "auxillary_file_paths": [
+                    "results\\drone6\\My Behavior\\My Behavior-500056.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500056,
+            "file_path": "results\\drone6\\My Behavior.onnx",
+            "reward": 11.00259280204773,
+            "creation_time": 1672644217.3047087,
+            "auxillary_file_paths": [
+                "results\\drone6\\My Behavior\\My Behavior-500056.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

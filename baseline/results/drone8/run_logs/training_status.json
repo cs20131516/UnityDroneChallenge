@@ -1,0 +1,29 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 274541,
+                "file_path": "results\\drone8\\My Behavior\\My Behavior-274541.onnx",
+                "reward": null,
+                "creation_time": 1672658202.7237124,
+                "auxillary_file_paths": [
+                    "results\\drone8\\My Behavior\\My Behavior-274541.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 274541,
+            "file_path": "results\\drone8\\My Behavior.onnx",
+            "reward": null,
+            "creation_time": 1672658202.7237124,
+            "auxillary_file_paths": [
+                "results\\drone8\\My Behavior\\My Behavior-274541.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

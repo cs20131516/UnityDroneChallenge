@@ -1,0 +1,83 @@
+conda activate mlagents
+cd C:\Users\fight\Desktop\unity_env\ml-agents-release_19
+mlagents-learn --torch config/ppo/PushBlock.yaml --run-id=myPushBlockTraining
+
+mlagents-learn --torch config/ppo/3DBall.yaml --run-id=my3DBall
+
+mlagents-learn config/ppo/3DBall.yaml --run-id=3DBall
+
+cd C:\Users\fight\Desktop\unity_env\2021_RLKR_Drone_Delivery_Challenge_with_Unity-master\baseline
+
+mlagents-learn ./drone_config/drone_test.yaml --env=./RLVillage --run-id=drone6 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test1.yaml --env=./RLVillage --run-id=drone7 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test1.yaml --env=./RLVillage --run-id=drone9 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test2.yaml --env=./RLVillage --run-id=drone10 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test2.yaml --env=./RLVillage --run-id=drone5 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test3.yaml --env=./RLVillage --run-id=drone4 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test4.yaml --env=./RLVillage --run-id=drone3 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test5.yaml --env=./RLVillage --run-id=drone2 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test6.yaml --env=./RLVillage --run-id=drone1 --width=1200 --height=800 (이게 그나마 좋았음)
+mlagents-learn ./drone_config/drone_test7.yaml --env=./RLVillage --run-id=drone0 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test8.yaml --env=./RLVillage --run-id=drone11 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test9.yaml --env=./RLVillage --run-id=drone12 --width=1200 --height=800 (최고 결과)
+mlagents-learn ./drone_config/drone_test10.yaml --env=./RLVillage --run-id=drone13 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test11.yaml --env=./RLVillage --run-id=drone14 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test11.yaml --env=./RLVillage --run-id=drone15 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test12.yaml --env=./RLVillage --run-id=drone16 --num-envs 5 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test12.yaml --env=./RLVillage --run-id=drone17 --num-envs 12
+mlagents-learn ./drone_config/drone_test9.yaml --env=./RLVillage --run-id=drone18 --num-envs 12
+mlagents-learn ./drone_config/drone_test13.yaml --env=./RLVillage --run-id=drone19 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test14.yaml --env=./RLVillage --run-id=drone20 --width=1200 --height=800 (될듯말듯임.)
+mlagents-learn ./drone_config/drone_test15.yaml --env=./RLVillage --run-id=drone22 --width=1200 --height=800 x
+mlagents-learn ./drone_config/drone_test16.yaml --env=./RLVillage --run-id=drone23 --width=1200 --height=800
+mlagents-learn ./drone_config/drone_test17.yaml --env=./RLVillage --run-id=drone24 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test17.yaml --env=./RLVillage --run-id=drone27 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test18.yaml --env=./RLVillage --run-id=drone29 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test18.yaml --env=./RLVillage --run-id=drone33 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test19.yaml --env=./RLVillage --run-id=drone35 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test20.yaml --env=./RLVillage --run-id=drone36 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test21.yaml --env=./RLVillage --run-id=drone37 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test22.yaml --env=./RLVillage --run-id=drone38 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test22.yaml --env=./RLVillage --force --run-id=drone38 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test23.yaml --env=./RLVillage --force --run-id=drone39 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test24.yaml --env=./RLVillage --force --run-id=drone40 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test25.yaml --env=./RLVillage --force --run-id=drone41 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test26.yaml --env=./RLVillage --force --run-id=drone42 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test26.yaml --env=./RLVillage --run-id=drone42 --width=576 --height=324 --num-envs 12
+mlagents-learn ./drone_config/drone_test27.yaml --env=./RLVillage --run-id=drone43 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test29.yaml --env=./RLVillage --run-id=drone44 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test29.yaml --env=./RLVillage --run-id=drone45 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test29.yaml --env=./RLVillage --run-id=drone46 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test29.yaml --env=./RLVillage --run-id=drone47 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test31.yaml --env=./RLVillage --run-id=drone49 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test32.yaml --env=./RLVillage --run-id=drone50 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test33.yaml --env=./RLVillage --run-id=drone51 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test34.yaml --env=./RLVillage --run-id=drone52 --width=576 --height=324 --num-envs 7
+mlagents-learn ./drone_config/drone_test35.yaml --env=./RLVillage --run-id=drone53 --width=576 --height=324 --num-envs 4
+mlagents-learn ./drone_config/drone_test36.yaml --env=./RLVillage --run-id=drone54 --width=576 --height=324 --num-envs 4
+mlagents-learn ./drone_config/drone_test37.yaml --env=./RLVillage --run-id=drone55 --width=576 --height=324 --num-envs 4
+mlagents-learn ./drone_config/drone_test38.yaml --env=./RLVillage --run-id=drone56 --width=576 --height=324 --num-envs 4
+mlagents-learn ./drone_config/drone_test39.yaml --env=./RLVillage --run-id=drone57 --width=576 --height=324 --num-envs 4
+mlagents-learn ./drone_config/drone_test40.yaml --env=./RLVillage --run-id=drone58 --width=576 --height=324 --num-envs 4
+mlagents-learn ./drone_config/drone_test41.yaml --env=./RLVillage --run-id=drone59 --width=576 --height=324
+mlagents-learn ./drone_config/sac.yaml --env=./RLVillage --run-id=drone60 --width=576 --height=324 --num-envs 4
+mlagents-learn ./drone_config/sac.yaml --env=./RLVillage --run-id=drone61 --width=576 --height=324
+mlagents-learn ./drone_config/drone_test42.yaml --env=./RLVillage --run-id=drone62 --width=576 --height=324 --num-envs 4
+
+mlagents-learn ./drone_config/drone_test37.yaml --env=./RLVillage --run-id=drone55 --width=576 --height=324 --num-envs 4 --resume
+mlagents-learn ./drone_config/drone_test38.yaml --env=./RLVillage --run-id=drone56 --width=576 --height=324 --num-envs 4 --resume
+mlagents-learn ./drone_config/drone_test39.yaml --env=./RLVillage --run-id=drone57 --width=576 --height=324 --num-envs 4 --resume
+mlagents-learn ./drone_config/drone_test43.yaml --env=./RLVillage --run-id=drone63 --width=576 --height=324 --num-envs 4 --resume
+
+mlagents-learn --env=./RLVillage --resume --run-id=drone16 --inference --width=1200 --height=800
+mlagents-learn --env=./RLVillage --resume --run-id=drone17 --inference --width=1200 --height=800
+mlagents-learn --env=./RLVillage --resume --run-id=drone18 --inference --width=1200 --height=800
+mlagents-learn --env=./RLVillage --resume --run-id=drone19 --inference --width=1200 --height=800
+mlagents-learn --env=./RLVillage --resume --run-id=drone23 --inference --width=576 --height=324
+mlagents-learn --env=./RLVillage --resume --run-id=drone24 --inference --width=576 --height=324
+mlagents-learn ./drone_config/drone_test18.yaml --env=./RLVillage --resume --run-id=drone33 --inference --width=576 --height=324 (이게 맞음)
+mlagents-learn ./drone_config/drone_test27.yaml --env=./RLVillage --resume --run-id=drone43 --inference --width=576 --height=324
+mlagents-learn ./drone_config/drone_test30.yaml --env=./RLVillage --resume --run-id=drone48 --inference --width=576 --height=324
+mlagents-learn ./drone_config/drone_test43.yaml --env=./RLVillage --resume --run-id=drone63 --inference --width=1152 --height=648
+
+tensorboard --logdir results
